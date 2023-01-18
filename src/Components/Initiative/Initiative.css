@@ -49,8 +49,6 @@
 .box2 {
     flex-direction: column-reverse;
     text-align: center;
-    /* z-index: -2; */
-    /* box-shadow: 3px 0px 7px rgb(111, 107, 107); */
 }
 
 .heading {

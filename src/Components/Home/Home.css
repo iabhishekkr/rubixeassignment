@@ -4,7 +4,6 @@
 
 .image_container {
     width: 100%;
-    /* border: 2px solid red; */
     background-size: cover;
 }
 
@@ -14,7 +13,6 @@
 
 .main_container {
     padding: 0 10%;
-    /* border: 2px solid red; */
 }
 
 .about_company_container {
@@ -64,9 +62,6 @@
     background-color: magenta;
 }
 
-/* .startInfo { */
-/* font-size: 0.7rem; */
-/* } */
 
 @media only screen and (width < 700px) {
     .about_company {

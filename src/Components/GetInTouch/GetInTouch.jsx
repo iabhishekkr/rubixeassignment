@@ -36,7 +36,7 @@ export default function GetInTouch() {
                             <form action="">
                                 <div className="name_container">
                                     <label htmlFor="name">Name<span>*</span></label> <br />
-                                    <input type="text" id='name' className='namee inp' value={name} required onChange={(e) => {
+                                    <input type="text" id='name' className='namee inp' value={name} placeholder="Enter Your Name" required onChange={(e) => {
                                         setName(e.target.value);
                                         if (nameError) setNameError(false);
                                     }} />
@@ -44,7 +44,7 @@ export default function GetInTouch() {
                                 </div>
                                 <div className="email_container">
                                     <label htmlFor="email">Email<span>*</span></label> <br />
-                                    <input type="email" id='email' className='email inp' value={email} required onChange={(e) => {
+                                    <input type="email" id='email' className='email inp' value={email} required placeholder='Enter Your Email' onChange={(e) => {
                                         setEmail(e.target.value)
                                         if (emailError) setEmailError(false);
                                     }} />
@@ -52,7 +52,7 @@ export default function GetInTouch() {
                                 </div>
                                 <div className="mobile_container">
                                     <label htmlFor="number">Mobile Number<span>*</span></label> <br />
-                                    <input type="number" id='mobile' className='mobile inp' value={mobile} required onChange={(e) => {
+                                    <input type="number" id='mobile' className='mobile inp' value={mobile} required placeholder='Enter Your Mobile Number' onChange={(e) => {
                                         setMobile(e.target.value);
                                         if (mobileError) setMobileError(false);
                                     }} />
