@@ -23,15 +23,15 @@
 
 .gradient1 {
     margin-top: 7px;
-    width: 30px;
+    width: 11px;
     background: linear-gradient(to bottom, rgb(95, 91, 91) 0%, rgb(255, 255, 255) 100%);
-    filter: blur(5px);
+    filter: blur(1px);
 }
 
 .gradient2 {
     margin-bottom: 7px;
-    width: 30px;
-    filter: blur(5px);
+    width: 11px;
+    filter: blur(1px);
     background: linear-gradient(to top, rgb(95, 91, 91) 0%, rgb(255, 255, 255) 100%);
 }
 
