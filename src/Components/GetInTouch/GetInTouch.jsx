@@ -16,7 +16,7 @@ export default function GetInTouch() {
             setNameError(true);
         if (!regexExp.test(email))
             setEmailError(true);
-        if (mobile.length < 10 || mobile.length > 10) {
+        if (!mobile || mobile.length != 10) {
             setMobileError(true);
         }
     }
