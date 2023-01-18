@@ -1,0 +1,16 @@
+#start {
+    background-color: magenta;
+}
+
+.start_container {
+    line-height: 20px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.startInfo {
+    font-weight: 500;
+    text-align: justify;
+    font-size: 0.9rem;
+}
