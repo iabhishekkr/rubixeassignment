@@ -74,5 +74,11 @@ label span {
     color: white;
     font-size: 1rem;
     font-weight: 600;
-    cursor: pointer;
+    cursor: po;
+}
+
+@media only screen and (width < 700px) {
+    .inp {
+        width: 40vw;
+    }
 }

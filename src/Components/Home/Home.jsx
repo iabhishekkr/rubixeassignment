@@ -19,7 +19,7 @@ export default function Home() {
                         <div className="about_company">
                             <div className="question">WHO WE ARE</div>
                             {/* <br /> */}
-                            <div className="about_company">Rubixe{trademark} is a global technology company specializing in disruptive technologies - <br /> Artificial Intelligence (AI), Machine Learning, Robot Process Automation (RPA), <br /> BlockChain, and internet of Things (IoT).
+                            <div className="about_company">Rubixe{trademark} is a global technology company specializing in disruptive technologies -  Artificial Intelligence (AI), Machine Learning, Robot Process Automation (RPA), BlockChain, and internet of Things (IoT).
                                 <br /><br />
                                 Rubixe{trademark} mission is to enable businesses to leverage the full potential of disruptive technologies and stay competitive in the market, turning complex challenges into solutions, providing a strategic competitive advantages that are more efficient, effective and predictable.
                             </div>

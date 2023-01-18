@@ -10,7 +10,14 @@
 }
 
 .startInfo {
+    margin-top: 10px;
     font-weight: 500;
     text-align: justify;
     font-size: 0.9rem;
+}
+
+@media only screen and (width < 700px) {
+    .startInfo {
+        font-size: 0.7rem;
+    }
 }
