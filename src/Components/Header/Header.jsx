@@ -3,43 +3,43 @@ import logo from "../../media/logo.png"
 import "./Header.css"
 const nav_links = [
     {
-        path: '#home',
+        path: '/',
         display: 'HOME',
         id: 1
     },
 
     {
-        path: '#services',
+        path: '/',
         display: 'SERVICES',
         id: 2
     },
     {
-        path: '#products',
+        path: '#initiative',
         display: 'PRODUCTS',
         id: 3
     },
     {
-        path: "#ai_internship",
+        path: "/",
         display: 'AI INTERNSHIP',
         id: 4
     },
     {
-        path: "#career",
+        path: "#about_us",
         display: 'CAREER',
         id: 5
     },
     {
-        path: "blog",
+        path: "/",
         display: 'BLOG',
         id: 6
     },
     {
-        path: "#about",
+        path: "#start",
         display: 'ABOUT',
         id: 7
     },
     {
-        path: "contact",
+        path: "#getInTouch",
         display: 'CONTACT US',
         id: 8
     }
