@@ -8,7 +8,7 @@ export default function GetInTouch() {
     const [emailError, setEmailError] = useState("");
     const [mobileError, setMobileError] = useState("");
     const [submitted, setSubmitted] = useState(false);
-    const regexExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/gi;
+    const regexExp = RegExp(/^\S+@\S+\.\S+$/);
     const clickHandler = (e) => {
         e.preventDefault();
         setSubmitted(true);
@@ -46,7 +46,7 @@ export default function GetInTouch() {
                                     <label htmlFor="email">Email<span>*</span></label> <br />
                                     <input type="email" id='email' className='email inp' value={email} required onChange={(e) => {
                                         setEmail(e.target.value)
-                                        setEmailError(false);
+                                        if (emailError) setEmailError(false);
                                     }} />
                                     {emailError && <div className="error email_error">Please Enter Valid Email</div>}
                                 </div>
@@ -54,7 +54,7 @@ export default function GetInTouch() {
                                     <label htmlFor="number">Mobile Number<span>*</span></label> <br />
                                     <input type="number" id='mobile' className='mobile inp' value={mobile} required onChange={(e) => {
                                         setMobile(e.target.value);
-                                        setMobileError(false);
+                                        if (mobileError) setMobileError(false);
                                     }} />
                                     {mobileError && <div className="error mobile_error">Please Enter Valid Mobile Number</div>}
                                 </div>
