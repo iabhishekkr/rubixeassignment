@@ -54,3 +54,9 @@
     color: aqua;
     transition: 1s;
 }
+
+@media only screen and (width < 700px) {
+    .tag {
+        font-size: 0.4rem;
+    }
+}

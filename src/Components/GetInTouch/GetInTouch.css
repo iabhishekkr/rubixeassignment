@@ -81,4 +81,8 @@ label span {
     .inp {
         width: 40vw;
     }
+
+    .instruction {
+        font-size: 1.5vw;
+    }
 }
