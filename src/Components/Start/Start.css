@@ -19,5 +19,8 @@
 @media only screen and (width < 700px) {
     .startInfo {
         font-size: 0.7rem;
+        line-height: 15px;
+        font-weight: 300;
+
     }
 }

@@ -60,3 +60,20 @@
         font-size: 0.4rem;
     }
 }
+
+@media only screen and (width < 450px) {
+    .logo img {
+        height: 8vw;
+        width: 8vw;
+        margin-top: 10px;
+    }
+
+    .name {
+        margin-top: 5px;
+        font-size: 6vw;
+    }
+
+    .tag {
+        font-size: 1.5vw;
+    }
+}
